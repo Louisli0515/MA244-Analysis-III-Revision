@@ -16,3 +16,8 @@ Below are all the support class questions I have done, and it is divided into we
 
 ### Week 2
 
+[MA244_Analysis_III_week2.pdf](https://github.com/Louisli0515/MA244-Analysis-III-Revision/files/11045440/MA244_Analysis_III_week2.pdf)
+
+In week 2's support class questions, the most important concept is Riemann integrable. 
+
+* Let $f:\left[a,b\right]\to\mathbb{R}$ be a bounded function. Then $f$ is integrable if and only if for every $\varepsilon > 0$, there exists a partition $P$ of $\left[a,b\right]$ such that $$U(f,P) - L(f,P) < \varepsilon.$$ 
