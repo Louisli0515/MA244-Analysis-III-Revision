@@ -7,3 +7,12 @@ So this repository will mainly focus on two parts, support class questions and p
 ## Lecture notes
 
 The most important part is of course the lecture notes, feel free to download the 2022 version.
+
+[Notes-Analysis-III-JLR-2022.pdf](https://github.com/Louisli0515/MA244-Analysis-III-Revision/files/11045431/Notes-Analysis-III-JLR-2022.pdf)
+
+## Support Class questions
+
+Below are all the support class questions I have done, and it is divided into weekly sections, feel free to download the complete version created by myself.
+
+### Week 2
+
