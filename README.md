@@ -26,3 +26,5 @@ In week 2's support class questions, the most important concept is Riemann integ
 Don't forget refinement as well!!!
 
 * A partition $Q = \set{J_{1},...,J_{l}}$ of $\left[a,b\right]$ is a refinement of a partition $P = \set{I_{1},...,I_{n}}$ if every interval $I_{k}$ in $P$ is the union of one or more intervals $J_{k}$ from the partition $Q$.
+
+### Week 3
