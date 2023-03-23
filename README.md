@@ -27,6 +27,8 @@ In week 2's support class questions, the most important concept is Riemann integ
 
 Don't forget refinement as well!!!
 
+#### Refinement
+
 * A partition $Q = \set{J_{1},...,J_{l}}$ of $\left[a,b\right]$ is a refinement of a partition $P = \set{I_{1},...,I_{n}}$ if every interval $I_{k}$ in $P$ is the union of one or more intervals $J_{k}$ from the partition $Q$.
 
 ### Week 3
@@ -42,3 +44,9 @@ In week 3's support class questions, there are some theorems that is worth inves
 #### Uniform continuity
 
 * A function $f:\Omega\subset\mathbb{R}\to\mathbb{R}$ is uniformly continuous if for every $\varepsilon>0$, there exists a $\delta = \delta(\varepsilon)$, such that $$\left|x-y\right|<\delta\implies\left|f(x)-f(y)\right|<\varepsilon.$$
+
+Something really obvious but needs to be remembered:
+
+#### Reverse Triangle Inequality
+
+* Consider two elements $a,b$, we have $$\left|\left|a\right|-\left|b\right|\right|\leq\left|a-b\right|.$$
