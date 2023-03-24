@@ -52,7 +52,7 @@ Something really obvious but needs to be remembered:
 * Consider two elements $a,b$, we have $$\left|\left|a\right|-\left|b\right|\right|\leq\left|a-b\right|.$$
 #### Triangle Inequality
 
-* Consider two elements $a,b$, we have $$\left|a+b\right|\leq\left|a\right|+\left|b\right|.
+* Consider two elements $a,b$, we have $$\left|a+b\right|\leq\left|a\right|+\left|b\right|.$$
 
 ### Week 4
 
