@@ -50,3 +50,17 @@ Something really obvious but needs to be remembered:
 #### Reverse Triangle Inequality
 
 * Consider two elements $a,b$, we have $$\left|\left|a\right|-\left|b\right|\right|\leq\left|a-b\right|.$$
+
+### Week 4
+
+[MA244_Analysis_III_week4.pdf](https://github.com/Louisli0515/MA244-Analysis-III-Revision/files/11062629/MA244_Analysis_III_week4.pdf)
+
+In week 4's support class questions, the topic is more about improper integrals.
+
+#### Improper integral
+
+* Let $f:(a,b]\to\mathbb{R}$ be a Riemann integrable function for every $[c,b]$ with $a < c$. Then the improper integral of $f$ on $[a,b]$ is defined as $$\int_{a}^{b}f(x)\mathrm{d}x = \lim_{\varepsilon\to0^{+}}\int_{a+\varepsilon}^{b}f(x)\mathrm{d}x.$$
+
+#### Logarithm inequalities
+
+* For $x \geq 1$, we have $$\log (x) \leq x-1.$$
