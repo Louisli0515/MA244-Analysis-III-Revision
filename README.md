@@ -80,6 +80,7 @@ In week 5's support class questions, there are two main focuses: pointwise conve
 
 * Let $f_{n}:\Omega\to\mathbb{R}$ be a sequence of functions. We say that $(f_{n})$ converges uniformly to $f:\Omega\to\mathbb{R}$ if and only if for every $\varepsilon>0$ there exists $N(\varepsilon)$ such that $$\left|f_{n}(x) - f(x)\right|<\varepsilon$$ for every $x\in\Omega$ and for all $n>N(\varepsilon).$
 * Its notation is $$f_{n}\rightrightarrows f.$$
+* Also, we can have a simplier version: $$f_{n}\rightrightarrows f \leftrightarrow \forall\varepsilon > 0,\exists N(\varepsilon)\, s.t. \sup_{x\in\Omega}\left|f_{n}-f\right|<\varepsilon \, \forall n> N(\varepsilon).$$
 
 #### Relationship between pointwise and uniform convergence
 
