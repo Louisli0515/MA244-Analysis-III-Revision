@@ -64,3 +64,11 @@ In week 4's support class questions, the topic is more about improper integrals.
 #### Logarithm inequalities
 
 * For $x \geq 1$, we have $$\log (x) \leq x-1.$$
+
+### Week 5
+
+In week 5's support class questions, there are two main focuses: pointwise convergence and uniform convergence.
+
+#### Pointwise convergence
+
+* Let $ (f_{n})_{n=1}^{\infty} $ be a sequence of functions with $f_{n}$ : $\Omega \to \mathbb{R}$. We say that $(f_{n})$ or $f_{n}$ converges pointwise to $f:\Omega\to\mathbb{R}% if and only if for every $x\in\Omega$, we have $$\lim_{n\to\infty}f_{n}(x) = f(x).$$
