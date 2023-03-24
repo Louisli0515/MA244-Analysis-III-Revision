@@ -71,4 +71,8 @@ In week 5's support class questions, there are two main focuses: pointwise conve
 
 #### Pointwise convergence
 
-* Let $ (f_{n})_{n=1}^{\infty} $ be a sequence of functions with $f_{n}$ : $\Omega \to \mathbb{R}$. We say that $(f_{n})$ or $f_{n}$ converges pointwise to $f:\Omega\to\mathbb{R}% if and only if for every $x\in\Omega$, we have $$\lim_{n\to\infty}f_{n}(x) = f(x).$$
+* Let  $\left(f_{n}\right)$ be a sequence of functions with $f_{n}$ : $\Omega \to \mathbb{R}$. We say that $(f_{n})$ or $f_{n}$ converges pointwise to $f:\Omega\to\mathbb{R}% if and only if for every $x\in\Omega$, we have $$\lim_{n\to\infty}f_{n}(x) = f(x).$$
+
+#### Uniform convergence
+
+* Let $f_{n}:\Omega\to\mathbb{R}$ be a sequence of functions. We say that $(f_{n})$ converges uniformly to $f:\Omega\to\mathbb{R}$ if and only if for every $\varepsilon>0$ there exists $N(\varepsilon)$ such that $$\left|f_{n}(x) - f(x)\right|<\varepsilon$$ for every $x\in\Omega$ and for all $n>N(\varepsilon).$
