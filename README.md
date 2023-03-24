@@ -50,6 +50,9 @@ Something really obvious but needs to be remembered:
 #### Reverse Triangle Inequality
 
 * Consider two elements $a,b$, we have $$\left|\left|a\right|-\left|b\right|\right|\leq\left|a-b\right|.$$
+#### Triangle Inequality
+
+* Consider two elements $a,b$, we have $$\left|a+b\right|\leq\left|a\right|+\left|b\right|.
 
 ### Week 4
 
@@ -76,3 +79,8 @@ In week 5's support class questions, there are two main focuses: pointwise conve
 #### Uniform convergence
 
 * Let $f_{n}:\Omega\to\mathbb{R}$ be a sequence of functions. We say that $(f_{n})$ converges uniformly to $f:\Omega\to\mathbb{R}$ if and only if for every $\varepsilon>0$ there exists $N(\varepsilon)$ such that $$\left|f_{n}(x) - f(x)\right|<\varepsilon$$ for every $x\in\Omega$ and for all $n>N(\varepsilon).$
+* Its notation is $$f_{n}\rightrightarrows f.$$
+
+#### Relationship between pointwise and uniform convergence
+
+* Uniform convergence implies pointwise convergence. The converse if false and the example is given in **Page 22 in Notes** and **2(a) in Support class problems**. 
