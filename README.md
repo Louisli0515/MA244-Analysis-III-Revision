@@ -111,3 +111,7 @@ The proof is easy. $$\left|f(x)-f(y)\right|\leq\left|f(x)-f_{n}(x)\right|+\left|
 
 * A sequence $(f_{n})$ of functions in $\Omega$ is called uniformly Cauchy if and only if for every $\varepsilon > 0$, there exists $N(\varepsilon)$ such that $\left\||f_{n}-f_{m}\right\||_{\infty} < \varepsilon$ for all $n,m>N(\varepsilon)$.
 * A sequence $(f_{n})$ is uniformly covergent if and only if it is uniformly Cauchy.
+
+#### Continuity and uniformly convergence
+
+* Let $(f_{n})$ be a sequence of $C^{1}$ functions on $[a,b]$. Assume $f_{n}\to f$ in the pointwise sense and $f_{n}'\rightrightarrows g$. Then $f$ is $C^{1}$ and $g = f'$ or $f_{n}'\rightrightarrows f'$.
