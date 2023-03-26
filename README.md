@@ -92,6 +92,14 @@ In week 5's support class questions, there are two main focuses: pointwise conve
 
 In week 6's support class questions, we need to remember the following theorems we learnt in 1st year.
 
+#### Epsilon-delta definition of limits
+
+* We say a function f has a limit at infinity, if there exists a real number $L$ such that for all $ε>0$, there exists $N>0$ such that $$\left|f(x)−L\right|<ε$$ for all $x>N$. In that case, we write $$\lim_{x\to\infty}f(x)=L.$$
+
+#### Mean Value Theorem
+
+* If $f$ is a continuous function on a closed interval $\left[a,b\right]$ and differentiable on the open interval $(a,b)$, then there exists a point $c\in(a,b)$ such that $$f'(c) = \frac{f(b)-f(a)}{b-a}.$$
+
 #### Weierstrass M-test
 
 Suppose that $(fn)$ is a sequence of real or complex-valued functions defined on a set A, and that there is a sequence of non-negative numbers $(M_{n})$ satisfying the following conditions:
