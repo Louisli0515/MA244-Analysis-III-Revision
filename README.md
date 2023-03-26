@@ -127,3 +127,22 @@ The proof is easy. $$\left|f(x)-f(y)\right|\leq\left|f(x)-f_{n}(x)\right|+\left|
 #### Continuity and uniformly convergence
 
 * Let $(f_{n})$ be a sequence of $C^{1}$ functions on $[a,b]$. Assume $f_{n}\to f$ in the pointwise sense and $f_{n}'\rightrightarrows g$. Then $f$ is $C^{1}$ and $g = f'$ or $f_{n}'\rightrightarrows f'$.
+
+### Week 7
+
+[MA244_Analysis_III_week7.pdf](https://github.com/Louisli0515/MA244-Analysis-III-Revision/files/11073170/MA244_Analysis_III_week7.pdf)
+
+In week 7's support class, these two theroems are still need to be mainly focused on.
+
+#### Weierstrass M-test
+
+Suppose that $(fn)$ is a sequence of real or complex-valued functions defined on a set A, and that there is a sequence of non-negative numbers $(M_{n})$ satisfying the following conditions:
+
+* $\left|f_{n}(x)\right|\leq M_{n}$, for all $n\geq 1$ and $x\in A.$
+* $\displaystyle\sum_{n=1}^{\infty} M_{n}$ converges.
+
+Then the series $$\sum_{n=1}^{\infty}f_{n}(x)$$ converges abosultely and uniformly on $A$.
+
+#### Continuity and uniformly convergence
+
+* Let $(f_{n})$ be a sequence of $C^{1}$ functions on $[a,b]$. Assume $f_{n}\to f$ in the pointwise sense and $f_{n}'\rightrightarrows g$. Then $f$ is $C^{1}$ and $g = f'$ or $f_{n}'\rightrightarrows f'$.
