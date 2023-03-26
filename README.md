@@ -85,3 +85,29 @@ In week 5's support class questions, there are two main focuses: pointwise conve
 #### Relationship between pointwise and uniform convergence
 
 * Uniform convergence implies pointwise convergence. The converse if false and the example is given in **Page 22 in Notes** and **2(a) in Support class problems**. 
+
+### Week 6
+
+[MA244_Analysis_III_week6.pdf](https://github.com/Louisli0515/MA244-Analysis-III-Revision/files/11070485/MA244_Analysis_III_week6.pdf)
+
+In week 6's support class questions, we need to remember the following theorems we learnt in 1st year.
+
+#### Weierstrass M-test
+
+Suppose that $(fn)$ is a sequence of real or complex-valued functions defined on a set A, and that there is a sequence of non-negative numbers $(M_{n})$ satisfying the following conditions:
+
+* $\left|f_{n}(x)\right|\leq M_{n}$, for all $n\geq 1$ and $x\in A.$
+* $\displaystyle\sum_{n=1}^{\infty} M_{n}$ converges.
+
+Then the series $$\sum_{n=1}^{\infty}f_{n}(x)$$ converges abosultely and uniformly on $A$.
+
+#### Uniform convergence imply continuity
+
+* Assume that $f_{n}$ converges uniformly to $f$ on $C$ and that each $f_{n}$ is uniformly continuous on $C$, then $f$ is uniformly continuous on $C$.
+
+The proof is easy. $$\left|f(x)-f(y)\right|\leq\left|f(x)-f_{n}(x)\right|+\left|f_{n}(x)-f_{n}(y)\right|+\left|f_{n}(y)-f(y)\right|.$$
+
+#### Uniformly Cauchy
+
+* A sequence $(f_{n})$ of functions in $\Omega$ is called uniformly Cauchy if and only if for every $\varepsilon > 0$, there exists $N(\varepsilon)$ such that $\left\||f_{n}-f_{m}\right\||_{\infty} < \varepsilon$ for all $n,m>N(\varepsilon)$.
+* A sequence $(f_{n})$ is uniformly covergent if and only if it is uniformly Cauchy.
