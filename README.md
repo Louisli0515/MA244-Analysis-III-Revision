@@ -100,6 +100,10 @@ In week 6's support class questions, we need to remember the following theorems 
 
 * If $f$ is a continuous function on a closed interval $\left[a,b\right]$ and differentiable on the open interval $(a,b)$, then there exists a point $c\in(a,b)$ such that $$f'(c) = \frac{f(b)-f(a)}{b-a}.$$
 
+#### Convergence
+
+* Remember $$\sum_{n=1}^{\infty}\frac{1}{n^{p}}$$ converges when $p>1$.
+
 #### Weierstrass M-test
 
 Suppose that $(fn)$ is a sequence of real or complex-valued functions defined on a set A, and that there is a sequence of non-negative numbers $(M_{n})$ satisfying the following conditions:
