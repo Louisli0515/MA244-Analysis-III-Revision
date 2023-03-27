@@ -148,3 +148,18 @@ Then the series $$\sum_{n=1}^{\infty}f_{n}(x)$$ converges abosultely and uniform
 #### Continuity and uniformly convergence
 
 * Let $(f_{n})$ be a sequence of $C^{1}$ functions on $[a,b]$. Assume $f_{n}\to f$ in the pointwise sense and $f_{n}'\rightrightarrows g$. Then $f$ is $C^{1}$ and $g = f'$ or $f_{n}'\rightrightarrows f'$.
+
+### Week 8
+
+In week 8's support class, we are entering Complex Analysis and the main focus is Cauchy-Riemann equation and Series convergence.
+
+#### Cauchy - Riemann equations
+
+* Assume that $f(z) = u(x,y)+iv(x,y)$ for $z = x+ iy$. Then the Cauchy-Riemann equations are given by $$u_{x} = v_{y},\qquad u_{y} = -v_{x}.$$
+
+#### Series Convergence test
+
+* Given a sequence $(a_{n})$, there exists $R\in\left[0,\infty\right]$ called the radius of convergence such that $$\sum_{n=0}^{\infty}a_{n}z^{n}$$ converges for all $\left|z\right| < R$ and diverges for $\left|z\right| > R$.
+* There is a formula for finding such $R$, $$R = \frac{1}{\displaystyle\lim_{n\to\infty}\sup\left|a_{n}\right|^{\frac{1}{n}}}.$$
+* Ratio test (**first version**): Consider $\displaystyle\sum_{n=0}^{\infty}a_{n}$ and assume that $a_{n}\ne 0$ for all $n$. Then 1. If $\lim\sup\frac{|a_{n}+1|}{|a_{n}|} < 1$, then $\displaystyle\sum_{n=0}^{\infty}a_{n}$ is convergent; 2. If $\frac{|a_{n+1}|}{|a_{n}|}\geq 1$ for all $n>N$, then $\displaystyle\sum_{n=0}^{\infty}a_{n}$ is divergent.
+* Ratio test (**second version**): Let $a_{n}\ne 0$ for all $n\geq N$, and assume that $\displaystyle\lim_{n\to\infty}\frac{|a_{n+1}|}{|a_{n}|}$ exists. Then $\displaystyle\sum_{n=0}^{\infty}a_{n}z^{n}$ has radius of convergence $$R = \lim_{n\to\infty}\frac{|a_{n}|}{|a_{n+1}|}.$$
