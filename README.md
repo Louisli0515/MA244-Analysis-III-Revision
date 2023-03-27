@@ -70,6 +70,8 @@ In week 4's support class questions, the topic is more about improper integrals.
 
 ### Week 5
 
+[MA244_Analysis_III_week5.pdf](https://github.com/Louisli0515/MA244-Analysis-III-Revision/files/11080557/MA244_Analysis_III_week5.pdf)
+
 In week 5's support class questions, there are two main focuses: pointwise convergence and uniform convergence.
 
 #### Pointwise convergence
