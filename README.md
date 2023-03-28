@@ -165,3 +165,26 @@ In week 8's support class, we are entering Complex Analysis and the main focus i
 * There is a formula for finding such $R$, $$R = \frac{1}{\displaystyle\lim_{n\to\infty}\sup\left|a_{n}\right|^{\frac{1}{n}}}.$$
 * Ratio test (**first version**): Consider $\displaystyle\sum_{n=0}^{\infty}a_{n}$ and assume that $a_{n}\ne 0$ for all $n$. Then 1. If $\lim\sup\frac{|a_{n}+1|}{|a_{n}|} < 1$, then $\displaystyle\sum_{n=0}^{\infty}a_{n}$ is convergent; 2. If $\frac{|a_{n+1}|}{|a_{n}|}\geq 1$ for all $n>N$, then $\displaystyle\sum_{n=0}^{\infty}a_{n}$ is divergent.
 * Ratio test (**second version**): Let $a_{n}\ne 0$ for all $n\geq N$, and assume that $\displaystyle\lim_{n\to\infty}\frac{|a_{n+1}|}{|a_{n}|}$ exists. Then $\displaystyle\sum_{n=0}^{\infty}a_{n}z^{n}$ has radius of convergence $$R = \lim_{n\to\infty}\frac{|a_{n}|}{|a_{n+1}|}.$$
+
+### Week 9
+
+In week 9's support class, the main focus is still about Cauchy-Riemann equations and its applications. Apart from that, there are still some more theorems to check.
+
+#### Cauchy's Theorem
+
+* Let $f:\Omega\to\mathbb{C}$ be an analytic function, with $\Omega$ an open, simply connected domain. Let $\gamma$ be a $C^{1}$ closed curve in $\Omega$. Then $$\int_{\gamma}f(z)\mathrm{d}z = 0.$$
+
+#### Parametrisation of a line
+
+* Techniques: Since we are in complex analysis area, remember the parametrisation of $z$ always sticks to $z = x+iy$. For example, when you are trying to parametrise a line $y = x$, we rewrite $z$ as $e^{i\theta}$. Note when $t\in[0,1]$, $\left|z\right|$ should move from 1 to 0 (assume counter-clockwise). Hence the first part of the parametrisation should be $(1-t)$ (the choice of $\theta$ would not affect $\left|z\right|$ as $\left|e^{i\theta}\right| = 1$.).
+* For $y = x$, the line makes $\frac{\pi}{4}$ to the $x$-axis, so $\theta = \frac{\pi}{4}$ in this case. 
+* Therefore, the final parametrisation is $z = (1-t)e^{i\frac{\pi}{4}}$.
+
+#### Parametrisation of a circle
+
+* Techniques: This is fairly straightforward, the parametrisation should be $$z = Re^{it},\quad t\in[0,2\pi].$$
+* If the question is asking to calculate $$I = \frac{1}{2\pi i}\int_{\partial B_{r}(0)} f(z)\mathrm{d}z,$$ where $f:z\to\displaystyle \sum_{n=0}^{\infty}a_{n}z^{n},$ subsutitute the parametrisation and do the normal integral. Note there might be a involve of **Kroneck Delta**.
+
+#### Kroneck Delta
+
+* The Kroneck Delta is defined as when $i\ne j$,  $$\delta_{ij} = 1, $$ when $i = j$, $$\delta_{ij} = 0.$$ 
