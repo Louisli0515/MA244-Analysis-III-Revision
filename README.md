@@ -151,6 +151,8 @@ Then the series $$\sum_{n=1}^{\infty}f_{n}(x)$$ converges abosultely and uniform
 
 ### Week 8
 
+[MA244_Analysis_III_week8.pdf](https://github.com/Louisli0515/MA244-Analysis-III-Revision/files/11087289/MA244_Analysis_III_week8.pdf)
+
 In week 8's support class, we are entering Complex Analysis and the main focus is Cauchy-Riemann equation and Series convergence.
 
 #### Cauchy - Riemann equations
