@@ -190,3 +190,28 @@ In week 9's support class, the main focus is still about Cauchy-Riemann equation
 #### Kroneck Delta
 
 * The Kroneck Delta is defined as when $i\ne j$,  $$\delta_{ij} = 1, $$ when $i = j$, $$\delta_{ij} = 0.$$ 
+
+### Week 10
+
+[MA244_Analysis_III_week10.pdf](https://github.com/Louisli0515/MA244-Analysis-III-Revision/files/11105652/MA244_Analysis_III_week10.pdf)
+
+In week 10's support class, the main focus is still Cauchy's formula. However there are more to look at.
+
+#### Cauchy's formula
+
+* Let $\gamma:\left[a,b\right]\to\mathbb{C}$ be a positively oriented simple closed $C^{1}$ curve. Assume that $f$ is analytic in $\gamma$ and on the interior of $\gamma$, $I(\gamma)$. Then $$f(z) = \frac{1}{2\pi i}\int_{\gamma}\frac{f(w)}{w-z}\mathrm{d}w,\qquad \forall z\in I(\gamma).$$
+
+#### Maximum modulus principle
+
+The following is only a small part of the principle:
+
+* Let $f$ be an analytic function in $B_{r}(z)$ for some $r>0$ and $z\in\mathbb{C}$, and we parametrise $z = a+re^{it}$, then $$\int_{0}^{2\pi} \left|f(z+re^{i\theta})\right|\mathrm{d}\theta \leq \max_{\theta}\left|f(z+re^{i\theta})\right|\int_{0}^{2\pi}\mathrm{d}\theta.$$
+* The reason for the above inequality is although $\displaystyle\max_{\theta}\left|f(z+re^{i\theta})\right|$ involves $\theta$ which should be integrated, it is a constant so we can put it outside the integral.
+
+#### Taylor Series Expansion Theorem
+
+* Let $f$ be an analytic function on $B_{R}(a)$ for $a\in\mathbb{C}$, $R>0$. Then there exists unique constants $c_{n}, n\in\mathbb{N}$ such that $$f(z) = \sum_{n=0}^{\infty}c_{n}(z-a)^{n}\qquad\forall z\in B_{R}(a).$$ Moreover, the coefficients $c_{n}$ are given by $$c_{n} = \frac{1}{2\pi i}\int_{\gamma}\frac{f(w)}{(w-a)^{n+1}}\mathrm{d}w = \frac{f^{(n)}(a)}{n!}.$$
+
+#### Liouville's Theorem
+
+* Let $f:\mathbb{C}\to\mathbb{C}$ be an analytic, bounded function. Then $f$ is constant.
