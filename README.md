@@ -168,6 +168,8 @@ In week 8's support class, we are entering Complex Analysis and the main focus i
 
 ### Week 9
 
+[MA244_Analysis_III_week9.pdf](https://github.com/Louisli0515/MA244-Analysis-III-Revision/files/11102697/MA244_Analysis_III_week9.pdf)
+
 In week 9's support class, the main focus is still about Cauchy-Riemann equations and its applications. Apart from that, there are still some more theorems to check.
 
 #### Cauchy's Theorem
